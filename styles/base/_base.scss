@@ -1,0 +1,241 @@
+* {
+  font-family: "Euclid-Circular-Regular";
+
+  ::-webkit-scrollbar {
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: #909497;
+    border-radius: 16px;
+  }
+}
+
+body {
+  background-color: transparent;
+}
+
+.card-glass{
+    color: white;
+    margin: auto;
+    width: 90%; 
+    font-family: "Euclid-Circular-Regular";
+    background-color: white;
+     border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-glass1 {
+  color: white;
+  margin: auto;
+  width: 90%;
+  margin-top: 50px;
+  font-family: "Euclid-Circular-Regular";
+  box-shadow: 0px 2px 5px 1px #b3b8bd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+
+.card-glass2 {
+  color: white;
+  margin: auto;
+  width: 90%;
+  margin-top: 50px;
+  font-family: "Euclid-Circular-Regular";
+  box-shadow: 0px 0px 2px 1px #9C9C9C;
+  border-radius: 10px;
+}
+
+.card-glass::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+.card-glass::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #909497;
+  border-radius: 16px;
+}
+
+.card-glass-op {
+  background-color: rgba(22, 23, 24, 0.603);
+  margin: auto;
+  margin-top: 25px;
+  width: 90%;
+  font-family: "Euclid-Circular-Regular";
+  border-radius: 16px;
+}
+
+.card-glass-op::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+.card-glass-op::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #909497;
+  border-radius: 16px;
+}
+
+.card-glass thead tr th {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.7px);
+  -webkit-backdrop-filter: blur(9.7px);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 16px;
+}
+
+.card-list-close {
+  padding: 35px;
+  margin: auto;
+  position: relative;
+  width: 500px;
+  top: 10px;
+  height: 0px;
+  transition: 500ms ease-in-out all !important;
+  overflow: hidden;
+  z-index: 5;
+  font-family: "Euclid-Circular-Regular";
+}
+
+.card-list-open {
+  padding: 35px;
+  margin: auto;
+  position: relative;
+  width: 1000px;
+  top: 10px;
+  height: auto;
+  transition: 500ms ease-in-out all !important;
+  overflow: hidden;
+  z-index: 5;
+  font-family: "Euclid-Circular-Regular";
+}
+
+.card-list-close > li {
+  transition: 500ms ease;
+  padding: 5px 3px 3px 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.card-list-open > li {
+  transition: 300ms ease-in-out;
+  padding: 5px 3px 3px 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.card-list-open > li:hover {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 3px 3px 10px;
+}
+.card-list-close > li {
+  transition: 500ms ease;
+  padding: 5px 3px 3px 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.card-list-open > li {
+  transition: 300ms ease-in-out;
+  padding: 5px 3px 3px 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.card-list-open > li:hover {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 3px 3px 10px;
+}
+
+.btn-list-close {
+  position: absolute;
+  top: 20px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  right: 10px;
+  cursor: pointer;
+}
+
+.btn-list-open {
+  position: absolute;
+  top: 6px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  right: 10px;
+  cursor: pointer;
+}
+
+.select {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 3px 3px 10px;
+}
+
+.table-card {
+  width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+table {
+  font-family: "Euclid-Circular-Regular";
+}
+
+.text-break {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+}
+
+.text-wrap {
+  white-space: normal !important;
+}
+
+
+
+.input-ligth{
+
+width: 100%;
+padding: 10px;
+border:none;
+border-radius: 5px;
+color: rgb(71, 70, 70);
+
+.p-tabview-nav {
+  display: flex !important;
+  gap: 10px;
+}
+.p-tabview-title {
+  color: black;
+}
+
+.tab-select {
+  border-bottom: 3px solid orange !important;
+}
+
+.tab-select a {
+  color: orange !important;
+}
+
+.table {
+  background-color: rgba(204, 139, 18, 0.185) !important;
+
+}

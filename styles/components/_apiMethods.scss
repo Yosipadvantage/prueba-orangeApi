@@ -1,0 +1,17 @@
+.apiMethods__option:hover {
+  background-color: #0f0f0fc2;
+  cursor: pointer;
+  border-radius: 16px;
+  padding: 10px;
+  padding-left: 20px;
+  transition: all ease-in-out 150ms;
+  -webkit-box-shadow: -8px 3px 13px 0px rgba(38, 38, 38, 1);
+  -moz-box-shadow: -8px 3px 13px 0px rgba(38, 38, 38, 1);
+  box-shadow: -8px 3px 13px 0px rgba(38, 38, 38, 1);
+}
+.apiMethods__selection {
+  width: 40%;
+  margin: 25px auto;
+}
+
+
